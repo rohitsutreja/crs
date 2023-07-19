@@ -1,0 +1,42 @@
+[
+	{
+		"Field" : "UserID",
+		"Type" : "int",
+		"Null" : "NO",
+		"Key" : "PRI",
+		"Default" : null,
+		"Extra" : "auto_increment"
+	},
+	{
+		"Field" : "UserName",
+		"Type" : "text",
+		"Null" : "NO",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	},
+	{
+		"Field" : "Email",
+		"Type" : "text",
+		"Null" : "NO",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	},
+	{
+		"Field" : "Password",
+		"Type" : "text",
+		"Null" : "NO",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	},
+	{
+		"Field" : "UserType",
+		"Type" : "enum('Student','Faculty','Admin')",
+		"Null" : "NO",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	}
+]
